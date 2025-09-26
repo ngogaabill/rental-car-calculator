@@ -36,7 +36,7 @@ public class Main {
         double totalRentalPrice;
         if (driverAge < 25) {
 
-            totalRentalPrice = rentalDays * (basicCarPrice + tollTagCost + roadAssistanceCost) + (rentalDays * basicCarPrice * 0.2)+ gpsCost;
+            totalRentalPrice = rentalDays * (basicCarPrice + tollTagCost + roadAssistanceCost) + (rentalDays * basicCarPrice * 0.3)+ gpsCost;
 
         } else {
             totalRentalPrice = ( rentalDays * (basicCarPrice + tollTagCost  + roadAssistanceCost) )+ gpsCost;
